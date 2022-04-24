@@ -86,7 +86,19 @@
 #XMLID_36_:hover {
     fill: #00B4A8;
 }
-#XMLID_169_:hover {
+.group_KSA path:hover {
+    fill: #00B4A8;
+}
+.group_LATAM path:hover {
+    fill: #00B4A8;
+}
+#XMLID_447_ path:hover {
+    fill: #00B4A8;
+}
+.group_AUS path:hover {
+    fill: #00B4A8;
+}
+.group_EUROP path:hover {
     fill: #00B4A8;
 }
 @media (min-width: 425px) and (max-width: 768px) {

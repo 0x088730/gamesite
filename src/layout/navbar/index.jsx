@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsMinecartLoaded, BsTwitter, BsYoutube } from "react-icons/bs";
-import { FaLinkedinIn, FaFacebookF,FaAlignJustify } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaAlignJustify } from "react-icons/fa";
 import "./style.css";
 const Navbar = () => {
   const [useoption, usersetoption] = useState(false);
@@ -9,6 +9,21 @@ const Navbar = () => {
     usersetoption(true);
   };
   const storeNft = () => { };
+  // const myfunction = () => {
+  //   let x = document.getElementById("myTopnav");
+  //   console.log(x.className);
+  //   if (x.className === "flex-navbar") {
+  //     x.className += " estimate";
+  //   } else {
+  //     x.className = "flex-navbar";
+  //   }
+  // }
+  const myfunction = () => {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  const closeNav = () => {
+    document.getElementById("mySidenav").style.width = "0";
+  }
   return (
     <div>
       {/* <div className="navbar_header">
@@ -28,7 +43,7 @@ const Navbar = () => {
         </div>
         
       </div> */}
-      <div className="flex-navbar">
+      <div className="flex-navbar" id="myTopnav">
         <div className="logo">
           <img src="./Image 1/Image@1.png" alt="" id="image-logo" />
         </div>
@@ -71,9 +86,18 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-        <div className="icon" onclick="myFunction()">
-          <FaAlignJustify style={{color: "white"}}/>
-        </div>
+
+      <div id="mySidenav" className="sidenav">
+        <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+        <a href="#" className="siderbarmenu">Watch</a>
+        <a href="#" className="siderbarmenu">Game</a>
+        <a href="#" className="siderbarmenu">Learn</a>
+        <a href="#" className="siderbarmenu">Media Center</a>
+      </div>
+
+      <div className="icon" onClick={myfunction}>
+        <FaAlignJustify style={{ color: "white" }} />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
-import Slider from "react-slick";
+
 import React, { useState, useEffect } from "react";
 import "./style.css";
 const dataArray = [
@@ -142,13 +142,7 @@ const GameImage = () => {
   useEffect(() => {
     setexactlyPage(Math.ceil(dataArray.length / pagenumber));
   });
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+
   return (
     <>
       <div className="flex-gameImage">
