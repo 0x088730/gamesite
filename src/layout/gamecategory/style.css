@@ -24,6 +24,28 @@
   opacity: 1;
   margin: 0;
 }
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #f8f9fa !important;
+  color: white;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.css-1oybtu7-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+.css-1nrlq1o-MuiFormControl-root {
+  width: 310px;
+}
 .filter-menu {
   width: 50%;
   display: flex;
