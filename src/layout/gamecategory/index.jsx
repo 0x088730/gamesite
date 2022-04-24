@@ -6,17 +6,26 @@ import MenuItem from "@mui/material/MenuItem";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import FormControl from "@mui/material/FormControl";
 import { useTheme } from "@mui/material/styles";
-const names = [
-  "Oliver Hansen",
-  "Van Henry",
-  "April Tucker",
-  "Ralph Hubbard",
-  "Omar Alexander",
-  "Carlos Abbott",
-  "Miriam Wagner",
-  "Bradley Wilkerson",
-  "Virginia Andrews",
-  "Kelly Snyder",
+const gameconsoles = [
+  "boardcross",
+  "pc",
+  "mobile"
+];
+const plateforms = [
+  "PC/MAC",
+  "Playstation",
+  "VR Headsets",
+  "Mobile tablets"
+];
+const genre = [
+  "Kill",
+  "funny",
+  "interest",
+];
+const regions = [
+  "USA",
+  "KSA",
+  "AUS",
 ];
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -24,7 +33,7 @@ const MenuProps = {
   PaperProps: {
     style: {
       maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: "200px",
+      width: "10vw",
     },
   },
 };
@@ -40,6 +49,33 @@ const Gamecategory = () => {
   const [personName, setPersonName] = useState([]);
   const theme = useTheme();
   const handleSelectChange = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setPersonName(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
+  };
+  const handleSelectChange1 = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setPersonName(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
+  };
+  const handleSelectChange2 = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setPersonName(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
+  };
+  const handleSelectChange3 = (event) => {
     const {
       target: { value },
     } = event;
@@ -68,7 +104,7 @@ const Gamecategory = () => {
                   color: "white",
                 }}
               >
-                {names.map((name) => (
+                {gameconsoles.map((name) => (
                   <MenuItem
                     key={name}
                     value={name}
@@ -89,14 +125,14 @@ const Gamecategory = () => {
                 id="demo-multiple-name"
                 multiple
                 value={personName}
-                onChange={handleSelectChange}
+                onChange={handleSelectChange1}
                 input={<OutlinedInput label="Name" />}
                 MenuProps={MenuProps}
                 sx={{
                   color: "white",
                 }}
               >
-                {names.map((name) => (
+                {plateforms.map((name) => (
                   <MenuItem
                     key={name}
                     value={name}
@@ -116,14 +152,14 @@ const Gamecategory = () => {
                 id="demo-multiple-name"
                 multiple
                 value={personName}
-                onChange={handleSelectChange}
+                onChange={handleSelectChange2}
                 input={<OutlinedInput label="Name" />}
                 MenuProps={MenuProps}
                 sx={{
                   color: "white",
                 }}
               >
-                {names.map((name) => (
+                {genre.map((name) => (
                   <MenuItem
                     key={name}
                     value={name}
@@ -143,14 +179,14 @@ const Gamecategory = () => {
                 id="demo-multiple-name"
                 multiple
                 value={personName}
-                onChange={handleSelectChange}
+                onChange={handleSelectChange3}
                 input={<OutlinedInput label="Name" />}
                 MenuProps={MenuProps}
                 sx={{
                   color: "white",
                 }}
               >
-                {names.map((name) => (
+                {regions.map((name) => (
                   <MenuItem
                     key={name}
                     value={name}
