@@ -1,0 +1,88 @@
+.roadmapcontent {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.roadmapbridge {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.roadmapchart {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.road0 {
+  width: 10%;
+  background: linear-gradient(
+    180deg,
+    #3caff1 34.17%,
+    #680346 46.15%,
+    #f33784 66.67%
+  );
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.road1 {
+  width: 10%;
+  background: #221d20;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.road00 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    #3caff1 34.17%,
+    #680346 46.15%,
+    #f33784 66.67%
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+.road2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #221d20;
+}
+.road3 {
+  width: 20%;
+  background-color: #221d20;
+  height: 10px;
+
+  margin-top: 25px;
+}
+.roadmapchartContent {
+  display: flex;
+  justify-content: center;
+
+}
+.roadmapchatcontent1 {
+    text-align: justify;
+    padding: 15px;
+    background: #200616;
+    border-radius: 15px;
+    width: 21.5%;
+    height: 292px;
+    margin: 30px;
+    color: white;
+    border: 1px solid palevioletred;
+    font-size: 14px
+}

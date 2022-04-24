@@ -1,0 +1,55 @@
+.action-gamer {
+  /* background: transparent url('action_gamers/gamers.png') 0% 0% no-repeat padding-box; */
+  mix-blend-mode: soft-light;
+  background-image: url("./gamers.png");
+  opacity: 0.5;
+  width: 100%;
+  margin-top: 100px;
+  height: 518px;
+  display: flex;
+  justify-content: space-between;
+}
+.channels {
+  width: 70%;
+}
+.gamecross {
+  width: 30%;
+}
+.gamecrossimage {
+  width: 706px;
+  height: 477px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.footerchannel {
+  position: absolute;
+  bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+  left: 233px;
+}
+.channelsvg {
+  width: 116px;
+  /* filter: blur(1px); */
+  filter: contrast(3px);
+
+  /* height: 1126px; */
+}
+.stay_connected {
+  text-align: left;
+  font: normal normal normal 45px/54px Libel Suit;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  bottom: 402px;
+  left: 201px;
+}
+.GWB {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background: #131421;
+  color: #ffffff;
+}

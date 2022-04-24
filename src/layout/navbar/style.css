@@ -1,0 +1,89 @@
+.navbar_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.left_header {
+  display: flex;
+}
+.right_header {
+  display: flex;
+}
+.left_header > span {
+  margin: 30px;
+}
+.right_header > span {
+  margin: 30px;
+}
+.button_login {
+  background: linear-gradient(270deg, #a50c72 30.21%, #ee41b0 100%);
+  border-radius: 5px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  padding: 6px 36px;
+  border-radius: 5px;
+  /* width: 70%; */
+  margin-top: 25px !important;
+  border: none;
+}
+.button_login:hover {
+  cursor: pointer;
+}
+#coin {
+  width: 23px;
+  margin-top: -5px;
+}
+#estimate_underline {
+  text-decoration: none;
+  color: white;
+}
+/* --------------------------- */
+/* *****skilltest *************/
+/* --------------------------- */
+.flex-navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.log {
+  width: 25%;
+}
+.ul-bar {
+  display: flex;
+  width: 40%;
+}
+.btn-nav {
+  display: flex;
+  width: 13.2%;
+  padding: 56px;
+  color: white;
+}
+.sociallink {
+  display: flex;
+  width: 20%;
+  margin-top: 4%;
+}
+.navbar-setting {
+  padding: 70px 20px;
+  color: white;
+}
+#image-logo {
+  margin-left: 60px;
+  margin-top: 35px;
+}
+#donate-btn {
+  background: #00b4a8;
+  color: white;
+  padding: 15px 45px;
+  font-size: 16px/19px;
+  border-radius: 10px;
+}
+.auth {
+  display: flex;
+  justify-content: center;
+}
+#icon-pos {
+  width: 8%;
+  /* margin-top: 20%; */
+}
+

@@ -1,0 +1,118 @@
+.Whitelist {
+  background: linear-gradient(
+    80.91deg,
+    #620343 0%,
+    #810758 52.4%,
+    #e20d9b 100%
+  );
+  /* X 1 */
+
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15), inset 4px 4px 4px #dd0d98;
+  border-radius: 15px;
+  width: 1140px;
+  height: 100px;
+}
+.text_nft {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: white;
+}
+.text_nft_padding {
+  padding: 28px;
+}
+.text_small_nft {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-top: 10px;
+}
+.nftflex {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  position: relative;
+}
+.nftman {
+  width: 310px;
+  height: 224px;
+  position: absolute;
+  margin-top: -22px;
+  padding: -9px;
+  margin-left: 16%;
+}
+.discord_button {
+  position: absolute;
+  /* 
+    margin-left: 3%; */
+  padding: 6px 20px;
+  color: white;
+  background: linear-gradient(270deg, #a50c72 30.21%, #ee41b0 100%);
+  border-radius: 5px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 45%;
+  margin-top: 1.5%;
+}
+.nftflexlorin {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 70px; */
+  position: relative;
+  margin-bottom: 10px;
+}
+.Whitelist1 {
+  background: #200616;
+  border-radius: 15px 15px 0px 0px;
+  width: 1140px;
+  height: 80px;
+}
+.Whitelist-unfold {
+  background: #200616;
+  border-radius: 15px;
+  width: 1140px;
+  height: 80px;
+}
+.whitelist-fold {
+  background: #610541;
+  border-radius: 0px 0px 15px 15px;
+  margin-top: 1px;
+  padding: 20px 28px;
+  color: white;
+}
+.whitelistcontent {
+  margin-top: 50px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.gasp {
+  width: 100%;
+  height: 50px;
+}
+.gasp-whitelist-fold {
+  width: 100%;
+  height: 100px;
+}
+.text-nft-lorem {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}

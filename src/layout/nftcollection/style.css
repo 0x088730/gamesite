@@ -1,0 +1,26 @@
+.nft_center {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Condensed';
+    margin-top: 30px;
+}
+.youtube_video {
+    margin-top: 15px;
+    background: #242424;
+    border: 5px solid #484848;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    width: 800px;
+    height: 400px;
+}
+.flexbar {
+    display: flex;
+    justify-content: center;
+}
+.youtube_icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}

@@ -1,0 +1,36 @@
+.flex-gameImage {
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 10px 200px;
+}
+.game-image {
+    width: 33%;
+    margin-top: 35px;
+}
+.imgSize {
+    width: 94%;
+    height: 35vw;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+    color: white!important;
+}
+.css-1v2lvtn-MuiPaginationItem-root {
+    color: white!important;
+}
+.flex-pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.css-1p5q5e5-MuiStack-root {
+    background: #323587;
+    padding: 10px 55px;
+    border-radius: 15px;
+    margin-top: 88px;
+}

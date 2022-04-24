@@ -1,0 +1,9 @@
+.man_style {
+    width: 100px;
+    height: 200px;
+}
+.mans_pos {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

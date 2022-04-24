@@ -1,0 +1,11 @@
+.earth_size {
+    width: 100%;
+    height: auto;
+    background-color: #13142C;
+    /* margin-top: 4%; */
+    display: flex;
+    justify-content: center;
+}
+.group_game:hover {
+    background-color: white;
+}

@@ -1,0 +1,264 @@
+.mint_flex {
+  display: flex;
+  justify-content: center;
+}
+.filter {
+  width: 25%;
+}
+.filter-content {
+  width: 50%;
+  text-align: justify;
+}
+.label_style {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #f8f9fa !important;
+  color: white;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.css-1oybtu7-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+/* ---------------------------------- */
+.checkbox-nft-style {
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+}
+.checkbox-nft-style1 {
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+  background-color: #A50C72;
+}
+.checkbox-available-style{
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+}
+.checkbox-available-style1{
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+  background-color: #A50C72;
+}
+.checkbox-solid-style {
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+}
+.checkbox-solid-style1 {
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid white;
+  border-radius: 5px;
+  background-color: #A50C72;
+}
+
+/* ---------------------------------------- */
+.checkbox-flex {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.checkbox-label {
+  color: white;
+  width: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+.css-1nrlq1o-MuiFormControl-root {
+  width: 310px;
+}
+.PriceSwitch {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.wax {
+  width: 41%;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 11px 0px 0px 11px;
+  color: white;
+  background-color: #A50C72;
+}
+.usd {
+  width: 41%;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 0px 11px 11px 0px;
+  color: white;
+}
+.max-min-price {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.min {
+  width: 30%;
+  background-color: #321022;
+  color: white;
+  width: 36%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.connect-to {
+  width: 10%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.max {
+  width: 30%;
+  background-color: #321022;
+  color: white;
+  width: 36%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.filter-searchbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.searchbar {
+  width: 50%;
+}
+.filter {
+  width: 30%;
+  margin-left: 10%;
+}
+#searchbar {
+  width: 100%;
+  outline: none;
+  padding: 7px;
+  background-color: #12030b;
+  border: 1px solid rgb(90, 87, 82);
+  border-radius: 7px;
+  color: white;
+}
+
+.filter-content {
+  margin-top: 30px;
+  /* display: flex;
+    justify-content: space-between; */
+}
+.mint_number {
+  margin-top: 6px;
+  width: 30%;
+  text-align: right;
+  color: white;
+}
+.filter_search {
+  width: 30%;
+}
+#filter_search {
+  margin-top: -1px;
+  padding: 8px;
+  background: #12030b;
+  border-radius: 10px;
+  color: white;
+}
+.NFTtoken {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 300px;
+}
+.nft1 {
+  width: 174px;
+  background: #A50C72;
+  border-radius: 10px;
+  height: 298px;
+}
+.nft2 {
+  width: 174px;
+  background: #A50C72;
+  border-radius: 10px;
+  height: 298px;
+}
+.nft3 {
+  width: 174px;
+  background: #A50C72;
+  border-radius: 10px;
+  height: 298px;
+}
+.nft4 {
+  width: 174px;
+  background: #A50C72;
+  border-radius: 10px;
+  height: 298px;
+}
+.nft-first-card {
+    width: 174px;
+    background: #551436;
+    border-radius: 10px;
+    height: 274px;
+    text-align: center;
+}
+#nftcart {
+    width: 125px;
+    height: 192px;
+    margin-top: 20px;
+}
+.nft-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nft-name {
+    width: 73%;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    /* /* text-align: left; */
+}
+.nft-price {
+    width: 35%;
+    text-align: left;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+#first-info {
+  margin-top: 14px;
+}
+.nfttokenspace {
+  height: 664px;
+  overflow: auto;
+}

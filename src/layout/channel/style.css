@@ -1,0 +1,19 @@
+.center_channel {
+    text-align: center;
+    margin-top: 20px;
+}
+.shop_now {
+    padding-top: 10px;
+    background: linear-gradient(100.64deg, #5DC7F8 0%, #680346 49.79%, #FC3B86 100%);
+    box-shadow: inset 4px 4px 4px #6095CB;
+    border-radius: 5px;
+    padding: 17px 35px;
+    color: white;
+    outline: none;
+    border: 0;
+
+}
+.show-pos {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+.nfttokenmethod {
+    background: linear-gradient(80.91deg, #620343 0%, #810758 52.4%, #E20D9B 100%);
+/* X 1 */
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15), inset 4px 4px 4px #DD0D98;
+    border-radius: 15px;
+    width: 1140px;
+    height: 202px;
+}
+.text_nft {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+}
+.text_nft_padding {
+    padding: 28px;
+}
+.text_small_nft {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-top: 10px;
+}
+.nftflex {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+}
+.nftman {
+    width: 310px;
+    height: 224px;
+    position: absolute;
+    margin-top: -22px;
+    padding: -9px;
+    margin-left: 16%;
+}
+.collection_button {
+    position: absolute;
+/* 
+    margin-left: 3%; */
+    padding: 6px 20px;
+    color: white;
+    background: linear-gradient(270deg, #A50C72 30.21%, #EE41B0 100%);
+    border-radius: 5px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 45%;
+    margin-top: 4.5%;
+}
