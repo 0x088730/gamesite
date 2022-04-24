@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsMinecartLoaded, BsTwitter, BsYoutube } from "react-icons/bs";
-import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF,FaAlignJustify } from "react-icons/fa";
 import "./style.css";
 const Navbar = () => {
   const [useoption, usersetoption] = useState(false);
   const wallet = () => {
     usersetoption(true);
   };
-  const storeNft = () => {};
+  const storeNft = () => { };
   return (
     <div>
       {/* <div className="navbar_header">
@@ -32,6 +32,7 @@ const Navbar = () => {
         <div className="logo">
           <img src="./Image 1/Image@1.png" alt="" id="image-logo" />
         </div>
+
         <div className="ul-bar">
           <span className="navbar-setting">Watch</span>
           <span className="navbar-setting">Game</span>
@@ -39,7 +40,7 @@ const Navbar = () => {
           <span className="navbar-setting">Media Center</span>
         </div>
         <div className="btn-nav">
-          <span id="donate-btn">Donate</span>
+          <button id="donate-btn">Donate</button>
         </div>
         <div className="sociallink">
           <div className="auth">
@@ -57,19 +58,22 @@ const Navbar = () => {
 
           </div>
           <div id="icon-pos">
-            <FaFacebookF style={{ color: "white" }}/>
+            <FaFacebookF style={{ color: "white" }} />
           </div>
           <div id="icon-pos">
-            <FaLinkedinIn style={{ color: "white" }}/>
+            <FaLinkedinIn style={{ color: "white" }} />
           </div>
           <div id="icon-pos">
-            <BsTwitter style={{ color: "white" }}/>
+            <BsTwitter style={{ color: "white" }} />
           </div>
           <div id="icon-pos">
-            <BsYoutube style={{ color: "white" }}/>
+            <BsYoutube style={{ color: "white" }} />
           </div>
         </div>
       </div>
+        <div className="icon" onclick="myFunction()">
+          <FaAlignJustify style={{color: "white"}}/>
+        </div>
     </div>
   );
 };

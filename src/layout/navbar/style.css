@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   color: white;
+  height: 175px;
 }
 .left_header {
   display: flex;
@@ -43,7 +44,7 @@
 .flex-navbar {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
 }
 .log {
   width: 25%;
@@ -61,7 +62,7 @@
 .sociallink {
   display: flex;
   width: 20%;
-  margin-top: 4%;
+  /* margin-top: 4%; */
 }
 .navbar-setting {
   padding: 70px 20px;
@@ -77,13 +78,49 @@
   padding: 15px 45px;
   font-size: 16px/19px;
   border-radius: 10px;
+  border: none;
 }
 .auth {
   display: flex;
   justify-content: center;
+  padding: 70px 10px;
 }
 #icon-pos {
   width: 8%;
+  padding: 70px 10px;
   /* margin-top: 20%; */
+}
+.logo1 {
+  display: none;
+}
+.icon {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .ul-bar{
+    display: none;
+  }
+  .btn-nav {
+    display: none;
+  }
+  .sociallink {
+    display: none;
+  }
+  .footerchannel {
+    display: none;
+  }
+  .icon {
+    position: absolute;
+    right: 3vw;
+    top: 3vw;
+    display: block;
+  }
+
+}
+@media (max-width: 425px) {
+  #image-logo {
+    margin-left: 10px;
+    margin-top: 35px;
+}
 }
 

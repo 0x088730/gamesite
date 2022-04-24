@@ -26,6 +26,7 @@
     "react-redux": "^7.2.4",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.29.0",
     "ual-anchor": "^1.0.9",
     "ual-plainjs-renderer": "^0.3.0",
     "ual-wax": "^1.1.0",

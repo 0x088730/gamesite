@@ -9,3 +9,88 @@
 .group_game:hover {
     background-color: white;
 }
+
+
+
+#XMLID_657_ {
+    position: relative;
+}
+.XMLID_657-son {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+#XMLID_657_:hover {
+    fill: #00B4A8;
+}
+#XMLID_692_:hover {
+    fill: #00B4A8;
+}
+#XMLID_40_:hover {
+    fill: #00B4A8;
+}
+#XMLID_54_:hover {
+    fill: #00B4A8;
+}
+#XMLID_689_:hover {
+    fill: #00B4A8;
+}
+#XMLID_688_:hover {
+    fill: #00B4A8;
+}
+#XMLID_687_:hover {
+    fill: #00B4A8;
+}
+#XMLID_686_:hover {
+    fill: #00B4A8;
+}
+#XMLID_39_:hover {
+    fill: #00B4A8;
+}
+#XMLID_677_:hover {
+    fill: #00B4A8;
+}
+#XMLID_38_:hover {
+    fill: #00B4A8;
+}
+#XMLID_668_:hover {
+    fill: #00B4A8;
+}
+#XMLID_37_:hover {
+    fill: #00B4A8;
+}
+#XMLID_61_:hover {
+    fill: #00B4A8;
+}
+#XMLID_35_:hover {
+    fill: #00B4A8;
+}
+#XMLID_47_:hover {
+    fill: #00B4A8;
+}
+#XMLID_46_:hover {
+    fill: #00B4A8;
+}
+#XMLID_41_:hover {
+    fill: #00B4A8;
+
+}
+#XMLID_36_:hover {
+    fill: #00B4A8;
+}
+#XMLID_169_:hover {
+    fill: #00B4A8;
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .earth_size {
+        display: none;
+    }
+}

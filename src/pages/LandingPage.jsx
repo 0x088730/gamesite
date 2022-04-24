@@ -41,25 +41,12 @@ const LandingPage = (props) => {
   return (
     <div className={classes.divHomeScreen} style={{background: "#13142c", height: "auto"}}>
       <Navbar />
-      <Compass />
+      {/* <Compass /> */}
       <Earth />
       <EarthBottom />
       <GameCategory />
       <GameImage />
       <Footer />
-      {/* <MotoLogo />
-      <NftIntroduce />
-      <Channels />
-      <ShowButton />
-      <Mans />
-      <Button_group />
-      <IntroNftCollection />
-      <NFTtokenmethod />
-      <ActionGirl/>
-      <RoadMap />
-      <WhiteList />
-      <Footer /> */}
-      {/* <div className={classes.signInButton} onClick={login}></div> */}
     </div>
   );
 };

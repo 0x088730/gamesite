@@ -34,3 +34,28 @@
     border-radius: 15px;
     margin-top: 88px;
 }
+
+@media screen and (max-width: 1440px) {
+    .flex-gameImage {
+        margin-top: 21px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+@media (max-width: 425px) {
+    .game-image {
+        width: 100%;
+        /* margin-top: 35px; */
+    }
+    .imgSize {
+        width: 94%;
+        height: 500px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+}

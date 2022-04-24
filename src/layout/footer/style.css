@@ -16,10 +16,10 @@
   width: 30%;
 }
 .gamecrossimage {
-  width: 706px;
-  height: 477px;
+  width: 27%;
+  height: 300px;
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   right: 0;
 }
 .footerchannel {
@@ -52,4 +52,22 @@
   padding: 15px;
   background: #131421;
   color: #ffffff;
+}
+@media screen and (max-width: 1440px) {
+
+  .footerchannel {
+    display: none;
+  }
+
+.gamecrossimage {
+    display: none;
+}
+}
+@media (max-width: 425px) {
+  .stay_connected {
+    display: none;
+  }
+  .action-gamer {
+    height: 200px;
+  }
 }

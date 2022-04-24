@@ -54,7 +54,7 @@ const Gamecategory = () => {
         <div className="pickgame"><p className="pick-font">PICK A GAME & PLAY</p><p className="choose-font">Choose between 1349 game & enjoy your time.</p></div>
         <div className="filter-menu">
           <div className="filter1">
-            <FormControl sx={{ m: 1, width: "200px" }}>
+            <FormControl sx={{ m: 1, width: "10vw" }}>
               <InputLabel id="demo-multiple-name-label">All Genre</InputLabel>
               <Select
                 labelId="demo-multiple-name-label"
@@ -82,7 +82,7 @@ const Gamecategory = () => {
           </div>
 
           <div className="filter2">
-            <FormControl sx={{ m: 1, width: "200px" }}>
+            <FormControl sx={{ m: 1, width: "10vw" }}>
               <InputLabel id="demo-multiple-name-label">All Console</InputLabel>
               <Select
                 labelId="demo-multiple-name-label"
@@ -109,7 +109,7 @@ const Gamecategory = () => {
             </FormControl>
           </div>
           <div className="filter3">
-            <FormControl sx={{ m: 1, width: "200px" }}>
+            <FormControl sx={{ m: 1, width: "10vw" }}>
               <InputLabel id="demo-multiple-name-label">All Plateforms</InputLabel>
               <Select
                 labelId="demo-multiple-name-label"
@@ -136,7 +136,7 @@ const Gamecategory = () => {
             </FormControl>
           </div>
           <div className="filter4">
-            <FormControl sx={{ m: 1, width: "200px" }}>
+            <FormControl sx={{ m: 1, width: "10vw" }}>
               <InputLabel id="demo-multiple-name-label">All Regions</InputLabel>
               <Select
                 labelId="demo-multiple-name-label"
