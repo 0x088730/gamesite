@@ -24,6 +24,15 @@ const Navbar = () => {
   const closeNav = () => {
     document.getElementById("mySidenav").style.width = "0";
   }
+  const Watch = (evt) => {
+    var i, tablinks;
+
+    tablinks = document.getElementsByClassName("navbar-setting");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    evt.currentTarget.className += " active";
+  }
   return (
     <div>
       {/* <div className="navbar_header">
@@ -49,13 +58,13 @@ const Navbar = () => {
         </div>
 
         <div className="ul-bar">
-          <span className="navbar-setting">Watch</span>
-          <span className="navbar-setting">Game</span>
-          <span className="navbar-setting">Learn</span>
-          <span className="navbar-setting">Media Center</span>
+          <span className="navbar-setting" onClick={(value) => Watch(value)}><span className="indicator1"></span>Watch</span>
+          <span className="navbar-setting" onClick={(value) => Watch(value)}><span className="indicator1"></span>Game</span>
+          <span className="navbar-setting" onClick={(value) => Watch(value)}>Learn</span>
+          <span className="navbar-setting" onClick={(value) => Watch(value)}>Media Center</span>
         </div>
         <div className="btn-nav">
-          <button id="donate-btn">Donate</button>
+          <button id="donate-btn"><img src="./coin/icondonate.svg" alt="" className="donate"/><span>Donate</span></button>
         </div>
         <div className="sociallink">
           <div className="auth">

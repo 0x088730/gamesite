@@ -8,12 +8,146 @@ import React, { useState } from "react";
 //     </div>
 //   )
 // }
+// var object, object1, object2, object3, object4, object5, object6;
+var glist, paths;
+var groupSaList, SaPath;
+var group_LATAM, LatamPath;
+var group_Asia, AsiaPath;
+var group_Russia, RussiaPath;
+var group_Africa, AfricaPath;
+var group_MENNA, MENNAPath;
+var group_EUROP, EuropePath;
+var group_AUS, AUSPath;
 const Earth = () => {
   const [isShown, setIsShown] = useState(false);
   const modalshow = () => {
-    // <PopModal />
-    setIsShown(true)
+    glist = document.getElementById("Component_13_3");
+    paths = glist.children;
+    for (let i = 0; i < paths.length; i++) {
+      paths[i].setAttribute("fill", "#fce9cb")
+      // here you get each textContent by spans[i].textContent
+    }
   };
+  const modalcolorremove = () => {
+    for (let i = 0; i < paths.length; i++) {
+      paths[i].setAttribute("fill", "#3c3851")
+      // here you get each textContent by spans[i].textContent
+    }
+  }
+  // Component_14_3 group_SA
+  const insertcologroup_sa = () => {
+    groupSaList = document.getElementById("Component_14_3");
+    SaPath = groupSaList.children;
+    for (let i = 0; i < SaPath.length; i++) {
+      SaPath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+  const removeSacolor = () => {
+    for (let i = 0; i < SaPath.length; i++) {
+      SaPath[i].setAttribute("fill", "#3c3851")
+    }
+  }
+
+  // Component_12_3 group_LATAM
+  const insert_group_LATAM = () => {
+    group_LATAM = document.getElementById("Component_12_3");
+    LatamPath = group_LATAM.children;
+    for (let i = 0; i < LatamPath.length; i++) {
+      LatamPath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+  const remove_group_latam = () => {
+    for (let i = 0; i < LatamPath.length; i++) {
+      LatamPath[i].setAttribute("fill", "#3c3851")
+    }
+  }
+
+  ///Component_19_3  group_ASIA
+  const insert_group_asia = () => {
+    group_Asia = document.getElementById("Component_19_3");
+    AsiaPath = group_Asia.children;
+    for (let i = 0; i < AsiaPath.length; i++) {
+      AsiaPath[i].setAttribute("fill", "#fce9cb")
+    }
+    group_Russia = document.getElementById("XMLID_447_");
+    RussiaPath = group_Russia.children;
+    for (let i = 0; i < RussiaPath.length; i++) {
+      RussiaPath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+
+  const remove_group_asia = () => {
+    for (let i = 0; i < AsiaPath.length; i++) {
+      AsiaPath[i].setAttribute("fill", "#3c3851")
+    }
+    for (let i = 0; i < RussiaPath.length; i++) {
+      RussiaPath[i].setAttribute("fill", "#3c3851")
+    }
+  }
+
+  // XMLID_447_ group RUSSIA
+
+  const insert_group_Africa = () => {
+    group_Africa = document.getElementById("Component_17_3");
+    AfricaPath = group_Africa.children;
+    for (let i = 0; i < AfricaPath.length; i++) {
+      AfricaPath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+  const remove_group_Africa = () => {
+    for (let i = 0; i < AfricaPath.length; i++) {
+      AfricaPath[i].setAttribute("fill", "#3c3851")
+    }
+  }
+
+  //Component_16_3  group_game group_MENNA
+  const insert_group_MENNA = () => {
+    group_MENNA = document.getElementById("Component_16_3");
+    MENNAPath = group_MENNA.children;
+    for (let i = 0; i < MENNAPath.length; i++) {
+      MENNAPath[i].setAttribute("fill", "#fce9cb")
+    }
+    document.getElementById("XMLID_705_2").setAttribute("fill", "#fce9cb")
+  }
+  const remove_group_MENNA = () => {
+    for (let i = 0; i < MENNAPath.length; i++) {
+      MENNAPath[i].setAttribute("fill", "#3c3851")
+    }
+    document.getElementById("XMLID_705_2").setAttribute("fill", "#3c3851")
+
+  }
+
+  //Component_18_3 group_game group_EUROP
+
+  const insert_group_Europe = () => {
+    group_EUROP = document.getElementById("Component_18_3");
+    EuropePath = group_EUROP.children;
+    for (let i = 0; i < EuropePath.length; i++) {
+      EuropePath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+  const remove_group_Europe = () => {
+    for (let i = 0; i < EuropePath.length; i++) {
+      EuropePath[i].setAttribute("fill", "#3c3851")
+    }
+
+  }
+
+  //Component_15_3 group_game group_AUS
+  const insert_group_AUS= () => {
+    group_AUS = document.getElementById("Component_15_3");
+    AUSPath = group_AUS.children;
+    for (let i = 0; i < AUSPath.length; i++) {
+      AUSPath[i].setAttribute("fill", "#fce9cb")
+    }
+  }
+  const remove_group_AUS = () => {
+    for (let i = 0; i < AUSPath.length; i++) {
+      AUSPath[i].setAttribute("fill", "#3c3851")
+    }
+
+  }
+
   return (
     <>
       <div className="earth_size">
@@ -41,6 +175,8 @@ const Earth = () => {
               class="group_game group_LATAM"
               data-name="Component 12 – 3"
               transform="translate(284.332 570.12)"
+              onMouseOver={insert_group_LATAM}
+              onMouseLeave={remove_group_latam}
             >
               <path
                 id="XMLID_692_"
@@ -152,6 +288,8 @@ const Earth = () => {
               class="group_game group_SA"
               data-name="Component 14 – 3"
               transform="translate(470.928 693.787)"
+              onMouseEnter={insertcologroup_sa}
+              onMouseLeave={removeSacolor}
             >
               <path
                 id="XMLID_41_"
@@ -303,15 +441,17 @@ const Earth = () => {
               class="group_game group_NA"
               data-name="Component 13 – 3"
               transform="translate(16.952 116.889)"
+              onMouseEnter={modalshow}
+              onMouseLeave={modalcolorremove}
             >
               <path
-                id="XMLID_657_" onMouseEnter={modalshow}
-                onMouseLeave={() => setIsShown(false)}
+                id="XMLID_657_"
                 d="M762.8,140.489c-5.728,0-10.334,1.011-10.671,5.279-.337,4.381-7.526-.786-10.671.674-3.033,1.46-1.573-3.482-4.605-1.8s-6.515,5.616-10.221,7.3-6.515,5.841-8.761,6.178c-2.359.337,4.942-7.638,8.649-11.681s1.685-8.649-3.257-8.2-3.819,3.819-6.627,4.493-16.062,7.863-16.624,5.616c-.562-2.134,10.9-5.841,10.783-7.3s-14.6-1.685-21.116-.674-17.859,4.942-18.084,3.033c-.112-2.022,13.254-4.83,19.993-5.616,6.964-.9,19.319.449,24.486-1.8,5.279-2.359,13.142-2.471,14.49-4.381,1.348-1.8-6.065-4.381-9.66-4.156-3.707.112-7.413-.337-7.076-2.359s-5.728-2.471-6.29-4.044c-.562-1.46-12.131-.337-14.6-2.022s-9.66-2.471-15.837-2.022-18.758.337-21.678.674-4.83,1.46-7.413,1.348-6.627.786-5.054,2.7c2.808,3.257-4.156,4.605-3.707,2.134s-6.065-3.707-7.975-1.8c-2.246,2.134-12.692-2.134-14.153,0-1.573,2.134-13.7,1.46-17.3,2.134s5.5,3.482,5.279,5.167c-.337,1.685-11.569,0-9.21,3.033s9.66,5.167,13.254,8.986-2.808,1.46-6.739-1.348c-4.044-2.808-9.1-1.8-11.569-4.605s-11.682-4.942-14.04-3.37c-2.808,2.022,6.29,5.616,6.29,7.863,0,2.134-6.178-.449-7.189.337-1.123.786-6.515-5.616-9.547-5.616s-.449,3.033-.449,7.189-6.065,6.627-4.268,3.819c1.685-2.808.449-10.109-2.808-11.457s-11.569,2.808-15.837,2.7-10,1.348-6.29,3.707-.112,3.707-3.37,1.123c-3.257-2.471-13.816,0-11.682,1.685s2.92,6.515,1.573,8.536-5.841-2.022-10-1.685-24.823,11.008-23.588,13.816,10,.449,12.8,2.134-.9,7.863-4.268,10.334-16.062.112-16.287,3.145C481.544,182.722,462,183.171,462,188a3.974,3.974,0,0,0,3.033,4.156c2.808.674,6.178-.337,8.649,2.7s9.435,3.145,14.153,1.123c4.83-2.022,8.312.337,8.2,3.37s-10.783-1.123-14.04,1.011-13.254.337-12.8,2.7,5.391,1.8,9.435,2.7c4.044.786.337,2.7.112,4.493-.112,1.8,2.134,1.46,6.178,3.707,4.044,2.134,10.671,3.482,8.424,1.011-2.134-2.471,4.156-2.134,5.279-.674s4.044-2.134,6.964-1.348,4.044-3.033,6.29-1.348c2.359,1.685,13.142,2.7,16.848,4.83s8.761,2.7,8.312,5.841,3.033,5.5,7.189,7.526,4.942,6.29,4.83,9.1,4.493,4.83,3.707,6.178-.112,3.145,2.583,5.841c2.808,2.7-4.268,4.605-2.583,6.964s-2.471,6.852,2.471,7.638,4.156-3.707,7.863-3.707-.112,3.482,1.8,5.616c2.022,2.134,6.178,1.685,10,5.167s1.348,5.167-2.134,2.359c-3.594-2.808-13.816-2.134-13.816-1.123s11.457,7.975,14.04,6.964,6.178,4.156,4.605,5.841-.786,5.841-1.123,7.863-4.156,0-6.627.337-4.156,1.123-4.156,4.044c0,2.808-3.819,4.83-4.268,8.312s3.033,3.37,5.055,4.83-3.707,2.471-4.044,4.942,5.279,6.964,7.189,8.2c2.022,1.123.112,6.852.9,9.66s3.37-.674,3.033,3.033,2.471,3.482,2.583,5.616,4.942,1.8,4.044,4.83,1.348,5.167,2.471,6.852,5.054,4.493,5.841,6.627,3.033,4.942,5.841,4.156,2.92,2.022,5.055,1.685,5.5,1.011,6.178,2.808,7.189,3.482,9.1,3.819c1.8.337,2.134-3.37,3.819-4.268,1.685-1.011,1.123-8.312,2.583-8.873,1.573-.449,1.123-8.2-.449-8.761-1.573-.674-.9-3.37,2.583-2.808,3.594.449,2.359-3.37,4.044-3.819s.9-4.044,2.134-4.381,1.123-2.7.112-4.044c-.9-1.348.112-2.359,2.022-2.7,1.8-.337,1.348-3.145-1.123-4.156s-1.685-4.044.786-2.134c2.471,1.8,4.268.449,2.92-1.46-1.348-2.022,1.685-3.033,4.942-3.37s4.942-2.134,4.268-4.83c-.562-2.7,3.707-2.471,2.583-.112s-.449,4.605,1.123,3.033c1.573-1.685,4.493-.449,9.66-2.134,5.279-1.685,10.334-6.29,11.569-10.783s7.189-4.044,6.515-6.964c-.786-3.033,1.123-4.156,4.942-2.134s.786-1.348,5.055-1.348,3.594-1.685,7.75-1.8,14.939-2.134,18.645-5.5,11.569-6.178,14.826-8.312,4.044-4.044,2.022-2.808c-2.022,1.123-6.178,1.348-9.21.449-3.033-.786-7.975-3.707-11.569-1.46-3.594,2.134-1.348-3.145,1.573-3.707,2.92-.449,1.685-2.022.9-5.279-.786-3.37,4.942-1.123,7.413,2.7a10.077,10.077,0,0,0,11.457,4.156c4.156-1.348.112-4.942,1.8-7.526,1.685-2.471-12.8-10.334-13.591-13.029s3.707-.786,7.75,1.011,4.942-3.482,4.942-5.841-8.649-2.471-12.468-.112-7.526-3.033-2.359-3.707c5.279-.674.449-3.033,2.022-4.605,1.573-1.685,8.2,4.83,11.569,3.707s5.841.112,8.761-2.359-5.279-4.83-6.964-6.964,8.424-1.348,11.569-1.123c3.033.112,3.819-4.83,1.348-3.819s-11.232-3.37-9.435-6.29c1.8-3.033,5.279.449,9.1-1.685s.337-10.334-2.471-10.334-9.21-1.011-9.21-2.471-5.391-2.808-3.819-4.381c1.573-1.46,3.594,1.8,7.076-1.011,3.594-2.808,10.9.674,14.153,0s-1.348-7.189-3.257-5.953c-1.8,1.123-8.2,1.46-8.649-2.022s6.065,0,7.076-1.685c1.123-1.685-8.986-5.953-10.446-2.471-1.573,3.482-7.076,2.359-4.156.337s3.594-7.638,3.257-10.446,10.446-3.033,9.21-7.638,5.054-5.616,8.649-5.616-.112-4.942-3.594-4.493c-3.37.449-6.964,4.605-8.649,3.033-1.685-1.685,4.044-4.605,7.076-4.605s10.446-.337,13.142-2.022c2.583-1.685-4.605-3.145-9.547-2.471s-4.942-1.685,2.471-1.8,6.178-1.8,11.457-2.471,3.594-3.033,6.739-3.145c3.257-.112,11.682-4.044,11.682-5.841S768.527,140.489,762.8,140.489Zm-192.071,144.9c.112-2.7-2.583-1.011-4.156-4.156s-9.435-4.493-10.221-2.022c-.337,1.011-2.808,2.471-.786,4.83s3.37,1.348,5.728,3.707C563.651,289.989,570.615,287.968,570.728,285.384Z"
                 transform="translate(37.887 -116.889)"
                 fill="#3c3851"
                 stroke="#13142c"
                 stroke-width="0.75"
+
               >
               </path>
 
@@ -625,6 +765,8 @@ const Earth = () => {
               class="group_game group_MENNA"
               data-name="Component 16 – 3"
               transform="translate(809.549 539.306)"
+              onMouseOver={insert_group_MENNA}
+              onMouseLeave={remove_group_MENNA}
             >
               <path
                 id="XMLID_112_"
@@ -792,6 +934,8 @@ const Earth = () => {
               class="group_game group_Africa"
               data-name="Component 17 – 3"
               transform="translate(809.297 603.48)"
+              onMouseOver={insert_group_Africa}
+              onMouseLeave={remove_group_Africa}
             >
               <path
                 id="XMLID_23_"
@@ -1151,6 +1295,8 @@ const Earth = () => {
               class="group_game group_ASIA"
               data-name="Component 19 – 3"
               transform="translate(1032.396 148.576)"
+              onMouseOver={insert_group_asia}
+              onMouseLeave={remove_group_asia}
             >
               <path
                 id="XMLID_147_"
@@ -1892,6 +2038,8 @@ const Earth = () => {
               class="group_game group_AUS"
               data-name="Component 15 – 3"
               transform="translate(1389.097 731.459)"
+              onMouseOver={insert_group_AUS}
+              onMouseLeave={remove_group_AUS}
             >
               <path
                 id="XMLID_546_"
@@ -2089,6 +2237,8 @@ const Earth = () => {
               class="group_game group_EUROP"
               data-name="Component 18 – 3"
               transform="translate(772.255 160.594)"
+              onMouseOver={insert_group_Europe}
+              onMouseLeave={remove_group_Europe}
             >
               <path
                 id="XMLID_728_"
@@ -2493,6 +2643,7 @@ const Earth = () => {
               id="XMLID_705_"
               class="group_game group_KSA"
               transform="translate(1076.764 573.615)"
+
             >
               <path
                 id="XMLID_705_2"

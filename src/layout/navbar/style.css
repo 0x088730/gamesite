@@ -56,17 +56,46 @@
 .btn-nav {
   display: flex;
   width: 13.2%;
-  padding: 56px;
+  padding: 66px;
   color: white;
+
 }
 .sociallink {
   display: flex;
   width: 20%;
-  /* margin-top: 4%; */
+  margin-top: 1%;
+}
+.indicator {
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #712598;
+  margin-left: 19px;
+  margin-top: 8px;
+}
+.indicator1 {
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #712598;
+  margin-left: -9px;
+  margin-top: 8px;
 }
 .navbar-setting {
-  padding: 70px 20px;
+  padding: 82px 20px;
   color: white;
+  width: 18%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.active {
+  background: linear-gradient(#00b4a8, #9198e5);;
+
 }
 #image-logo {
   margin-left: 60px;
@@ -130,6 +159,10 @@
   margin-left: 50px;
   text-decoration: none;
   color: white;
+}
+.donate {
+  position: absolute;
+  margin-left: -19px;
 }
 @media screen and (max-width: 1440px) {
   .flex-navbar div:not(:first-child) {
