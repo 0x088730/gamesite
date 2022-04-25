@@ -34,6 +34,23 @@
     border-radius: 15px;
     margin-top: 88px;
 }
+.frame {
+    width: 33%;
+    height: 35vw;
+    overflow: hidden;
+  }
+  .zoomin img {
+    width: 94%;
+    height: 35vw;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .zoomin img:hover {
+    width: 98%;
+    height: 39vw;
+  }
 
 @media screen and (max-width: 1440px) {
     .flex-gameImage {

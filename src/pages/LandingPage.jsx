@@ -41,7 +41,7 @@ const LandingPage = (props) => {
   return (
     <div className={classes.divHomeScreen} style={{background: "#13142c", height: "auto"}}>
       <Navbar />
-      {/* <Compass /> */}
+      <Compass />
       <Earth />
       <EarthBottom />
       <GameCategory />

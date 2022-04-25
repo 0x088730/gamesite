@@ -147,7 +147,7 @@ const GameImage = () => {
     <>
       <div className="flex-gameImage">
         {dataArray.slice(origin, 15).map((item, i) => (
-          <div className="game-image" key={i}>
+          <div className="game-image zoomin frame" key={i}>
             <img src={item.gameimage} alt="image" className="imgSize" />
           </div>
         ))}
