@@ -10,12 +10,24 @@
 .game-image {
     width: 33%;
     margin-top: 35px;
+    /* position: relative; */
 }
 .imgSize {
     width: 94%;
     height: 35vw;
     border-radius: 20px;
     object-fit: cover;
+    display: block;
+}
+.logoZoom {
+    /* color: white; */
+    /* font-size: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
     color: white!important;
@@ -51,6 +63,19 @@
     width: 98%;
     height: 39vw;
   }
+  .overlay {
+    margin-top: -300px;
+    position: relative;
+    /* height: 100%; */
+    /* width: 100%; */
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .game-image:hover .overlay {
+    opacity: 0.8;
+  }
+  
 
 @media screen and (max-width: 1440px) {
     .flex-gameImage {
