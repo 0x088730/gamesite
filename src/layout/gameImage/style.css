@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 88px;
 }
 .css-1p5q5e5-MuiStack-root {
     background: #323587;
@@ -74,6 +75,9 @@
   }
   .game-image:hover .overlay {
     opacity: 0.8;
+  }
+  .css-1636szt {
+      color: white!important;
   }
   
 
